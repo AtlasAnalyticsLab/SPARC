@@ -1,0 +1,19 @@
+{
+  "dataset": "open_images",
+  "train_stream_feature_files": {
+    "dino": "/home/ubuntu/Projects/SPARC/features/open_images/train/dino_features_dinov2_vitl14_reg.h5",
+    "clip_img": "/home/ubuntu/Projects/SPARC/features/open_images/train/clip_image_features_CLIP-ViT-L-14-DataComp.h5",
+    "clip_txt": "/home/ubuntu/Projects/SPARC/features/open_images/train/clip_text_features_CLIP-ViT-L-14-DataComp.h5"
+  },
+  "val_stream_feature_files": {
+    "dino": "/home/ubuntu/Projects/SPARC/features/open_images/val/dino_features_dinov2_vitl14_reg.h5",
+    "clip_img": "/home/ubuntu/Projects/SPARC/features/open_images/val/clip_image_features_CLIP-ViT-L-14-DataComp.h5",
+    "clip_txt": "/home/ubuntu/Projects/SPARC/features/open_images/val/clip_text_features_CLIP-ViT-L-14-DataComp.h5"
+  },
+  "test_stream_feature_files":{
+    "dino": "/home/ubuntu/Projects/SPARC/features/open_images/test/dino_features_dinov2_vitl14_reg.h5",
+    "clip_img": "/home/ubuntu/Projects/SPARC/features/open_images/test/clip_image_features_CLIP-ViT-L-14-DataComp.h5",
+    "clip_txt": "/home/ubuntu/Projects/SPARC/features/open_images/test/clip_text_features_CLIP-ViT-L-14-DataComp.h5"
+  },
+  "open_images_root_folder": "/home/ubuntu/Projects/OpenImages/"
+} 

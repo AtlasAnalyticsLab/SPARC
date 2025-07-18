@@ -1,0 +1,14 @@
+{
+  "dataset": "coco",
+  "train_stream_feature_files": {
+    "dino": "/home/ubuntu/Projects/SPARC/features/coco/train/dino_features_dinov2_vitb14_reg.h5",
+    "clip_img": "/home/ubuntu/Projects/SPARC/features/coco/train/clip_image_features_ViT-B-16-datacomp_xl_s13b_b90k.h5",
+    "clip_txt": "/home/ubuntu/Projects/SPARC/features/coco/train/clip_text_features_ViT-B-16-datacomp_xl_s13b_b90k.h5"
+  },
+  "val_stream_feature_files": {
+    "dino": "/home/ubuntu/Projects/SPARC/features/coco/val/dino_features_dinov2_vitb14_reg.h5",
+    "clip_img": "/home/ubuntu/Projects/SPARC/features/coco/val/clip_image_features_ViT-B-16-datacomp_xl_s13b_b90k.h5",
+    "clip_txt": "/home/ubuntu/Projects/SPARC/features/coco/val/clip_text_features_ViT-B-16-datacomp_xl_s13b_b90k.h5"
+  },
+  "coco_root_folder": "/home/ubuntu/Projects/SPARC/dataset/COCO/"
+} 
