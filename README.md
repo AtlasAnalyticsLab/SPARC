@@ -21,8 +21,7 @@ The SPARC architecture processes multiple input streams (CLIP Text, CLIP Image, 
 - **Global TopK**: Aggregates logits across all streams, selects top-k indices globally, then applies the same indices to create sparse representations z^s for each stream
 - **Stream Decoders**: Reconstruct original features from sparse latents using stream-specific linear transformations
 
-The Global TopK mechanism ensures identical latent features activate across all streams for the same data sample, enforcing both sparsity and cross-modal concept alignment.
-
+The Global TopK mechanism ensures identical TopK selection across all streams for each sample, enforcing structural sparsity and cross-modal alignment. However, this only constrains which latents are selected, not their activations or semantic content. Cross-reconstruction loss is therefore essential to ensure individual latents encode similar concepts across modalities.
 ## Feature Extraction
 
 ### Option 1: Download Pre-computed Features
