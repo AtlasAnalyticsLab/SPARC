@@ -1,4 +1,5 @@
 # SPARC: Concept-Aligned Sparse Autoencoders for Cross-Model and Cross-Modal Interpretability
+[📊 Slides](docs/SPARC_Slides.pdf)
 
 **SPARC** (**Sp**arse Autoencoders for **A**ligned **R**epresentation of **C**oncepts) learns a unified latent space shared across diverse models (DINO, CLIP Vision, CLIP Text) where individual dimensions correspond to the same concepts across different architectures and modalities. This enables cross-model interpretability, allowing you to understand what concepts are being captured consistently across different vision and vision-language models.
 
